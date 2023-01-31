@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 
 
-connString = "mongodb+srv://admin:8569VkMk$2001@myfirstdb.rpjfd2i.mongodb.net/?retryWrites=true&w=majority"
+connString = "mongodb+srv://User:<password>@myfirstdb.rpjfd2i.mongodb.net/?retryWrites=true&w=majority"
 client = MongoClient(connString)
 
 # ============================================================================================================
